@@ -80,7 +80,6 @@ module "ethereum_cluster" {
   asg_size          = 4
   name_prefix       = "Ethereum"
   map_users         = var.map_users
-  role_arn          = var.role_arn
   update_kubeconfig = true
 }
 
